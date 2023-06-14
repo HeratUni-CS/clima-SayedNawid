@@ -1,5 +1,5 @@
-import 'package:clima_project/component/details.dart';
-import 'package:clima_project/component/loader.dart';
+import '../component/details.dart';
+import '../component/loader.dart';
 import '../models/weather_model.dart';
 import '../services/location.dart';
 import '../services/networking.dart';
