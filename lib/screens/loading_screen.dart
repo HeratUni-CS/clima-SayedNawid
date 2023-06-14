@@ -137,7 +137,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                           Icons.location_city,
                           color: kMidLightColor,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 12,
                         ),
                         Text(
