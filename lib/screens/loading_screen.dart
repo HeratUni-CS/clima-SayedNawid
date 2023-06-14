@@ -1,14 +1,11 @@
-import 'dart:html';
-
+import 'package:clima_project/component/details.dart';
+import 'package:clima_project/component/loader.dart';
+import '../models/weather_model.dart';
 import '../services/location.dart';
 import '../services/networking.dart';
 import '../utilities/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-
-
-import '../services/weather.dart';
-
 
 class LoadingScreen extends StatefulWidget {
   @override
