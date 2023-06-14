@@ -31,7 +31,7 @@ class Details extends StatelessWidget {
           title,
           style: kDetailsTitleTextStyle,
         ),
-        ],
-        );
+      ],
+    );
   }
 }

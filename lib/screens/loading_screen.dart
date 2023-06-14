@@ -103,7 +103,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
-                        child: SizedBox(
+                        child:const  SizedBox(
                           height: 60,
                           child: Row(
                             children: [
@@ -176,7 +176,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                   ),
                   child: Container(
                     height: 90,
-                    child: Row(
+                    child:const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
